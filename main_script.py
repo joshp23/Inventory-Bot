@@ -14,10 +14,10 @@ if str(soup).find("add to bag") == -1:
     sys.exit()
 
 else:
-    password = sys.argv[2]
     msg = "Check JCrew for Killshots!"
     fromaddr = sys.argv[1]
     toaddr = sys.argv[1]
+    password = sys.argv[2]
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
