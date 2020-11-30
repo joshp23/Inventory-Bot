@@ -1,4 +1,4 @@
-# xmpp or email, blank for both
+# xmpp, email, or both. blank for none (use -d)
 protocol = ""
 ## If XMPP: enter XMPP credentials and recipient here
 xmpp = { 
